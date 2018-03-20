@@ -1,0 +1,45 @@
+/* PHASE 10: Posts */
+
+.posts article {
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+.posts .thumb {
+ float: left;
+}
+
+.post-body {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.post-body h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+
+.post-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-info {
+  display: flex;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.footer-info li:before{
+  content: "·";
+  padding: 0px 5px;
+}
+
+.footer-info li:first-child:before {
+  content: "";
+  padding: 0;
+}
