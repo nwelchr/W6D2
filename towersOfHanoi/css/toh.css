@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.hanoi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 600px;
+}
+
+.hanoi ul {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  border-bottom: 10px solid black;
+  width: 250px;
+  padding: 0;
+  margin-right: 20px;
+  padding-bottom: 5px;
+}
+
+
+.hanoi ul:last-child {
+  margin-right: 0;
+}
+
+.hanoi ul:hover {
+  border-bottom: 10px solid blue;
+  cursor: pointer;
+}
+
+.hanoi .red-border {
+  border-bottom: 10px solid red;
+}
+
+.hanoi .red-border:hover {
+  border-bottom: 10px solid red;
+}
+
+.hanoi li {
+  text-align: center;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 50px;
+  height: 50px;
+  margin-top: 5px;
+}
+
+.hanoi .big {
+  background-color: #888;
+  width: 100%;
+}
+
+.hanoi .med {
+  background-color: #888;
+  width: 70%;
+}
+
+.hanoi .small {
+  background-color: #888;
+  width: 40%;
+}
